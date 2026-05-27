@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node / frontend builds
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# App outputs
+outputs/
+finance_tech_finetune/outputs/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
